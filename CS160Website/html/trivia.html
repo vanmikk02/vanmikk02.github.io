@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A collection of trivia questions.">
+    <meta name="keywords" content="GOTY, trivia">
+    <meta name="author" content="Van">
+    <title>Trivia</title>
+	<link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/trivia.css">
+</head>
+<body>
+<div class="mynav">
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="trivia.html">Trivia</a></li>
+            <li><a href="links.html">Other Sources</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="content">
+	<form action="result.html" method="GET">
+		<div class="grid-wrapper">
+			<div class="grid-item">
+				<h2 class="trivia">Which company has two GOTY winners?</h2>
+				<p>
+					<input type="radio" name="company" value="FromSoftware" checked> FromSoftware<br>
+					<input type="radio" name="company" value="Blizzard"> Blizzard<br>
+					<input type="radio" name="company" value="Nintendo"> Nintendo
+				</p>
+			</div>
+
+			<div class="grid-item">
+				<h2 class="trivia">Which games have multiplayer?</h2>
+				<p>
+					<label><input type="checkbox" name="games" value="dragon_age"> Dragon Age: Inquisition (2014)</label><br>
+					<label><input type="checkbox" name="games" value="witcher_3"> The Witcher 3: Wild Hunt (2015)</label><br>
+					<label><input type="checkbox" name="games" value="overwatch"> Overwatch (2016)</label><br>
+					<label><input type="checkbox" name="games" value="zelda_botw"> The Legend of Zelda: Breath of the Wild (2017)</label><br>
+					<label><input type="checkbox" name="games" value="god_of_war"> God of War (2018)</label><br>
+					<label><input type="checkbox" name="games" value="sekiro"> Sekiro: Shadows Die Twice (2019)</label><br>
+					<label><input type="checkbox" name="games" value="tlou2"> The Last of Us Part II (2020)</label><br>
+					<label><input type="checkbox" name="games" value="it_takes_two"> It Takes Two (2021)</label><br>
+					<label><input type="checkbox" name="games" value="elden_ring"> Elden Ring (2022)</label><br>
+					<label><input type="checkbox" name="games" value="baldurs_gate_3"> Baldur's Gate 3 (2023)</label><br>
+					<label><input type="checkbox" name="games" value="astro_bot"> Astro Bot (2024)</label>
+				</p>
+			</div>
+
+			<div class="grid-item">
+				<h2 class="trivia">Please select which two games are made by the same company:</h2>
+				<p>
+					<label><input type="checkbox" name="games" value="dragon_age"> Dragon Age: Inquisition (2014)</label><br>
+					<label><input type="checkbox" name="games" value="witcher_3"> The Witcher 3: Wild Hunt (2015)</label><br>
+					<label><input type="checkbox" name="games" value="overwatch"> Overwatch (2016)</label><br>
+					<label><input type="checkbox" name="games" value="zelda_botw"> The Legend of Zelda: Breath of the Wild (2017)</label><br>
+					<label><input type="checkbox" name="games" value="god_of_war"> God of War (2018)</label><br>
+					<label><input type="checkbox" name="games" value="sekiro"> Sekiro: Shadows Die Twice (2019)</label><br>
+					<label><input type="checkbox" name="games" value="tlou2"> The Last of Us Part II (2020)</label><br>
+					<label><input type="checkbox" name="games" value="it_takes_two"> It Takes Two (2021)</label><br>
+					<label><input type="checkbox" name="games" value="elden_ring"> Elden Ring (2022)</label><br>
+					<label><input type="checkbox" name="games" value="baldurs_gate_3"> Baldur's Gate 3 (2023)</label><br>
+					<label><input type="checkbox" name="games" value="astro_bot"> Astro Bot (2024)</label>
+				</p>
+			</div>
+			
+			<div class="grid-item">
+				<p>Why is it your Favorite one?</p>
+				<textarea name="comments" cols="20" rows="4"></textarea>
+			</div>
+
+			<div class="grid-item">
+				<label for="goty">Select your Favorite Game:</label>
+				<select id="goty" name="goty">
+					<option value="dragon_age">Dragon Age: Inquisition</option>
+					<option value="witcher_3">The Witcher 3: Wild Hunt</option>
+					<option value="overwatch">Overwatch</option>
+					<option value="zelda_botw">The Legend of Zelda: Breath of the Wild</option>
+					<option value="god_of_war">God of War</option>
+					<option value="sekiro">Sekiro: Shadows Die Twice</option>
+					<option value="tlou2">The Last of Us Part II</option>
+					<option value="it_takes_two">It Takes Two</option>
+					<option value="elden_ring">Elden Ring</option>
+					<option value="baldurs_gate_3">Baldur's Gate 3</option>
+					<option value="astro_bot">Astro Bot</option>
+				</select>
+			</div>
+
+	 
+
+			<div class="grid-item">
+				<h3> Placeholder </h3>
+			</div>
+		</div>
+		
+		<button type="submit">Submit</button>
+	</form>
+</div>
+</body>
+</html>
