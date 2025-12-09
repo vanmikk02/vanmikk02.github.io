@@ -1,74 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Game of the Year </title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-        img {
-            display: block;
-            margin: auto;
-        }
-        table {
-            margin: 20px auto;
-            border-collapse: collapse;
-            width: 60%;
-        }
-        th, td {
-            border: 2px solid white;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: gray;
-        }
-		nav ul {
-			list-style: none;  
-			padding: 20px;
-			margin: 0;
-			display: flex;      
-			gap: 30px;        
-			background-color: silver;
-			font-size: 20px;
-		}
-
-		nav li {
-			display: inline;   
-		}
-
-		nav a {
-			text-decoration: none;
-			color: black;         
-		}
-    </style>
+  <meta charset="UTF-8">
+  <title>Trivia Results</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/trivia.css">
 </head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1T0JGBGXQK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1T0JGBGXQK');
-</script>
 <body>
+<br>
+<br>
+<br>
+<br>
 
-	<nav class="navbar">
-		<ul>
-			<li> <a href="../index.html"> Home </a>
-			<li> <a href="info.html"> Information </a>
-			<li> <a href="trivia.html"> Trivia </a>
-			<li> <a href="links.html"> Other Sources </a>
-		</ul>
-	</nav>
-	
-	<h1> Placeholder page for results </h1>
-	
 
+  <div class="results-container">
+    <h1>Your Trivia Results</h1>
+    <div id="results"></div>
+    <a href="trivia.html" class="back-link">← Back to Trivia</a>
+  </div>
+
+
+  <script src="../js/result.js"></script>
 </body>
 </html>
-
