@@ -38,11 +38,12 @@ h1 {
 	font-size: 18px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .grid-item {
         flex: 1 1 100%; /* full width */
     }
 }
+
 
 
 
